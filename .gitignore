@@ -1,0 +1,35 @@
+# Python cache and local environment
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+nn_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Training outputs and artifacts
+checkpoints/
+models/
+runs/
+logs/
+outputs/
+results/
+*.h5
+*.keras
+*.ckpt
+
+# Local data copies
+data/
+datasets/
